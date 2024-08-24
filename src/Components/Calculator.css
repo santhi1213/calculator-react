@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: gray;
+    text-align: center;
+}
+form{
+    background-color: rgb(58, 58, 58);
+    padding: 1%;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 38%;
+    margin-top: 8%;
+}
+form div{
+    width: 100%;
+}
+form div input{
+    width: 20%;
+    margin: 2%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: -1px -1px 5px 2px gray;
+}
+
+form div .display{
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    margin: 8% 2%;
+    background-color: white;
+    box-shadow: none;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2% 5%;
+    cursor: none;
+}
+.equal{
+    width: 42%;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.AC{
+    background-color: aqua;
+}
+.del{
+    background-color: rgb(255, 103, 103);
+}
+.mul:hover, .divi:hover, .dot:hover, .sub:hover, .add:hover, .mod:hover{
+    background-color: pink;
+}
+
+.int-val:hover{
+    background-color: bisque;
+}
+
+@media only screen and (min-width:320px) {
+    form{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    form{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (min-width:1120px) {
+    form{
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 8%;
+    }
+}
